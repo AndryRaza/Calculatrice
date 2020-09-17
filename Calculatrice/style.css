@@ -1,0 +1,42 @@
+#corps{
+    display:grid;
+    width:450px;
+    height:500px;
+    border:2px solid black;
+    grid-template-rows: repeat(6,1fr);
+    grid-template-columns: repeat(4,1fr);
+    padding-top:3px;
+    padding-left:3px;
+    padding-right: 3px;
+    margin:auto;
+}
+
+h1{
+    text-align: center;
+}
+#ecran{
+    grid-row: 1;
+    grid-column: 1/5;
+    border:10px double black;
+    text-align: right;
+}
+
+#corps div{
+    margin-top:10px;
+    margin-bottom:10px;
+    margin-left:5px;
+    border: 2px solid black;
+    text-align: center;
+    font-size:30px;
+}
+
+#plus{
+    grid-row: 3/6;
+    grid-column: 4;
+    padding-top:100px;
+}
+
+#zero{
+    grid-row: 6;
+    grid-column: 1/3;
+}
